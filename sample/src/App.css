@@ -1,0 +1,46 @@
+#rizz{
+  background-color: deepskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vw ;
+  flex-direction: column;
+  width: 20vw;
+  gap: 20px;
+  border-radius: 2vw;
+  border: 7px solid rgb(5, 52, 106);
+  box-shadow: 10px 10px 10px rgb(6, 76, 111);
+}
+#rizz h1{
+  font-size: 2vw;
+  color: rgb(50, 13, 110);
+  transition: 250ms; 
+  font-family: monospace;
+}
+
+#rizz:hover{
+  color:violet;
+h1{
+  scale: 1.9;
+  color: bisque;
+}
+}
+#sigma{
+  display: flex;
+  gap:20px;
+}
+#sigma button{
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 250ms;
+  font-family: monospace;
+}
+#sigma button:hover{
+  scale: 1.5;
+  background-color: rgb(6, 117, 202);
+  color: #000;
+}
